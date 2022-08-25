@@ -2,7 +2,7 @@ name: ci for embedded systems
 
 on:
   push:
-    branches: [ $default-branch ]
+    branches: [ "master" ]
 
 jobs:
   build:
